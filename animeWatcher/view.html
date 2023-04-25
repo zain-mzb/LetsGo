@@ -1,0 +1,19 @@
+<h1>Anime Watcher</h1>
+
+<div>
+
+    {{.AnimeCount}} Anime
+
+    <a href="/new">
+
+        Add a anime
+    </a>
+
+</div>
+
+<div>
+    {{range .AnimeToWatch}}
+    <p>{{.}}</p>
+
+    {{end}}
+</div>
